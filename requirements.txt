@@ -1,0 +1,12 @@
+streamlit
+faiss-cpu
+numpy
+requests
+python-dotenv
+sentence-transformers
+ebooklib
+beautifulsoup4
+langchain
+gTTS
+Pillow
+moviepy
