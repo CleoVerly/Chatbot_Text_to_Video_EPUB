@@ -45,7 +45,16 @@ env\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-> **Catatan:** Buat file `.env` dan isi dengan variabel API jika dibutuhkan, seperti `OPENROUTER_API_KEY` atau `PEXELS_API_KEY`.
+4. Buat file `.env` untuk menyimpan API Key:
+
+Buat file bernama `.env` di root folder dan isi dengan format berikut:
+
+```env
+OPENROUTER_API_KEY=your_openrouter_api_key
+PEXELS_API_KEY=your_pexels_api_key
+```
+
+> Gantilah nilai `your_openrouter_api_key` dan `your_pexels_api_key` dengan API key milikmu.
 
 ## ▶️ Cara Menjalankan
 
@@ -60,7 +69,7 @@ project_chatbot_llm/
 │
 ├── text_to_video.py       # Aplikasi Streamlit untuk konversi teks ke video
 ├── text_to_text.py        # File tambahan (tidak dijelaskan)
-├── .env                   # Variabel lingkungan (jangan unggah ke publik)
+├── .env                   # Variabel lingkungan
 └── .git/                  # Repo Git lokal
 ```
 

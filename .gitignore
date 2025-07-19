@@ -1,0 +1,11 @@
+# Abaikan file environment yang berisi API keys dan rahasia lainnya
+.env
+
+# Abaikan cache dan file sementara Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Abaikan folder yang berisi video yang dihasilkan
+output_videos/
