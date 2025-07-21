@@ -1,0 +1,92 @@
+[
+  {
+    "epub_file": "اللآليء المكية من كلام خير البرية.epub",
+    "question": "apa isi buku اللآليء المكية?",
+    "ideal_context_summary": "Konteks harus berisi ringkasan umum buku, menyebutkan bahwa ini adalah kumpulan hadis, nama penulis, dan topik umum seperti taubat, sedekah, dan adab.",
+    "ground_truth_answer": "Buku ini adalah kumpulan 70 hadis sahih karya Muhammad bin Saleh Al-Shawi, yang membahas berbagai aspek moral dan spiritual dalam Islam, termasuk pentingnya hadis sebagai sumber hukum kedua setelah Al-Qur'an."
+  },
+  {
+    "epub_file": "اللآليء المكية من كلام خير البرية.epub",
+    "question": "Sebutkan beberapa hadis yang ada di buku اللآليء المكية",
+    "ideal_context_summary": "Konteks harus secara eksplisit menyebutkan judul atau isi dari beberapa hadis, seperti 'Hadis Kedua: إن أحدكم يجمع في بطن أمه' atau 'Hadis Keempat Belas: من انتسب إلى غير أبيه'.",
+    "ground_truth_answer": "Beberapa hadis yang dibahas antara lain hadis tentang proses penciptaan manusia di dalam rahim ibu dan hadis tentang larangan menisbatkan diri kepada selain ayahnya."
+  },
+  {
+    "epub_file": "اللآليء المكية من كلام خير البرية.epub",
+    "question": "Apa yang dijelaskan tentang pentingnya sedekah?",
+    "ideal_context_summary": "Konteks harus berisi informasi tentang keutamaan sedekah, bagaimana sedekah dapat menghapus dosa, dan anjuran untuk bersedekah meskipun dengan hal kecil.",
+    "ground_truth_answer": "Buku ini menjelaskan bahwa sedekah memiliki keutamaan besar, dapat menghapus dosa seperti air memadamkan api, dan dianjurkan untuk dilakukan secara ikhlas."
+  },
+  {
+    "epub_file": "الأربعون الشبابية.epub",
+    "question": "Buku الأربعون الشبابية ini tentang apa?",
+    "ideal_context_summary": "Konteks harus menyebutkan bahwa buku ini fokus pada peran pemuda dalam Islam, jihad, dan kisah-kisah sahabat muda di masa Nabi.",
+    "ground_truth_answer": "Buku ini membahas peran dan kontribusi pemuda dalam sejarah Islam, menyoroti keberanian dan dedikasi para sahabat muda dalam perjuangan seperti Perang Badar dan Uhud, serta pentingnya pendidikan generasi muda."
+  },
+  {
+    "epub_file": "الأربعون الشبابية.epub",
+    "question": "Jelaskan mengenai pertempuran di Uhud menurut buku ini",
+    "ideal_context_summary": "Konteks harus mengandung kata kunci 'Uhud', 'pertempuran', dan menjelaskan detail kejadian atau partisipasi pemuda di dalamnya.",
+    "ground_truth_answer": "Buku ini menyoroti partisipasi dan keberanian para pemuda dalam Pertempuran Uhud sebagai contoh dedikasi kepada Islam."
+  },
+  {
+    "epub_file": "الأربعون الشبابية.epub",
+    "question": "Apa pentingnya mendidik dan membimbing generasi muda?",
+    "ideal_context_summary": "Konteks harus berisi poin-poin tentang tanggung jawab generasi muda dalam menyebarkan dan mempertahankan agama serta perlunya meneladani para sahabat.",
+    "ground_truth_answer": "Pentingnya mendidik generasi muda adalah untuk menanamkan nilai-nilai Islam dan mempersiapkan mereka untuk memikul tanggung jawab dalam menyebarkan serta mempertahankan agama, mengikuti jejak para sahabat."
+  },
+  {
+    "epub_file": "بداية القاري في ختم صحيح البخاري -.epub",
+    "question": "Apa tujuan dari buku بداية القاري في ختم صحيح البخاري?",
+    "ideal_context_summary": "Konteks harus menjelaskan bahwa buku ini adalah panduan atau syarah untuk mengkhatamkan (menyelesaikan) pembacaan Shahih Bukhari.",
+    "ground_truth_answer": "Tujuan buku ini adalah sebagai panduan bagi pembaca (qari) untuk menyelesaikan (mengkhatamkan) kitab Shahih Bukhari, kemungkinan berisi doa-doa atau adab terkait."
+  },
+  {
+    "epub_file": "بداية القاري في ختم صحيح البخاري -.epub",
+    "question": "Siapakah Imam Bukhari?",
+    "ideal_context_summary": "Konteks harus berisi informasi biografis singkat tentang Imam Bukhari, penyusun kitab Shahih Bukhari.",
+    "ground_truth_answer": "Imam Bukhari adalah seorang ulama hadis terkemuka yang menyusun kitab hadis paling otentik, Shahih al-Bukhari."
+  },
+  {
+    "epub_file": "بداية القاري في ختم صحيح البخاري -.epub",
+    "question": "Apa itu 'khatam' dalam konteks buku ini?",
+    "ideal_context_summary": "Konteks harus mendefinisikan istilah 'khatam' sebagai tindakan menyelesaikan atau menamatkan pembacaan seluruh kitab.",
+    "ground_truth_answer": "Dalam konteks ini, 'khatam' berarti menyelesaikan atau menamatkan pembacaan keseluruhan kitab hadis Shahih Bukhari dari awal hingga akhir."
+  },
+  {
+    "epub_file": "معالم السنة النبوية -.epub",
+    "question": "Apa isi utama dari kitab معالم السنة النبوية?",
+    "ideal_context_summary": "Konteks harus menyebutkan bahwa buku ini adalah kompilasi hadis-hadis dari berbagai kitab induk yang disusun secara tematik.",
+    "ground_truth_answer": "Kitab Ma'alim as-Sunnah an-Nabawiyyah adalah sebuah ensiklopedia hadis yang merangkum hadis-hadis dari kitab-kitab induk dan menyusunnya berdasarkan tema-tema fikih dan syariat."
+  },
+  {
+    "epub_file": "معالم السنة النبوية -.epub",
+    "question": "Sebutkan beberapa topik yang dibahas dalam buku ini",
+    "ideal_context_summary": "Konteks harus memberikan contoh beberapa bab atau tema, seperti 'Kitab Iman', 'Kitab Shalat', 'Kitab Jual Beli'.",
+    "ground_truth_answer": "Beberapa topik yang dibahas meliputi Kitab Iman, Thaharah (bersuci), Shalat, Zakat, Puasa, Haji, Jual Beli, dan berbagai aspek lain dari fikih Islam."
+  },
+  {
+    "epub_file": "معالم السنة النبوية -.epub",
+    "question": "Dari kitab apa saja hadis dalam buku ini diambil?",
+    "ideal_context_summary": "Konteks harus menyebutkan sumber-sumber utama seperti Kutubus Sittah (Shahih Bukhari, Muslim, dll.).",
+    "ground_truth_answer": "Hadis-hadis dalam buku ini diambil dari kitab-kitab hadis utama, terutama Kutubus Sittah (enam kitab hadis utama) dan sumber-sumber otentik lainnya."
+  },
+  {
+    "epub_file": "تيسير اللطيف المنان في خلاصة تفسير القرآن - ط الأوقاف السعودية.epub",
+    "question": "Apa fokus utama dari tafsir تيسير اللطيف المنان?",
+    "ideal_context_summary": "Konteks harus menjelaskan bahwa ini adalah tafsir ringkas (khulasah/ringkasan) yang mudah dipahami.",
+    "ground_truth_answer": "Fokus utama tafsir ini adalah memberikan penjelasan ringkas dan mudah dipahami (Tafsir Mukhtasar) dari Al-Qur'an, sehingga dapat diakses oleh masyarakat umum."
+  },
+  {
+    "epub_file": "تيسير اللطيف المنان في خلاصة تفسير القرآن - ط الأوقاف السعودية.epub",
+    "question": "Siapa penulis tafsir ini?",
+    "ideal_context_summary": "Konteks harus menyebutkan nama penulis, yaitu Syaikh Abdurrahman bin Nashir As-Sa'di.",
+    "ground_truth_answer": "Penulis tafsir ini adalah seorang ulama besar, Syaikh Abdurrahman bin Nashir As-Sa'di."
+  },
+  {
+    "epub_file": "تيسير اللطيف المنان في خلاصة تفسير القرآن - ط الأوقاف السعودية.epub",
+    "question": "Apa makna dari 'Taisir' dalam judul buku?",
+    "ideal_context_summary": "Konteks harus menjelaskan bahwa 'Taisir' berarti kemudahan atau sesuatu yang dibuat mudah.",
+    "ground_truth_answer": "Makna dari 'Taisir' dalam judul buku adalah 'kemudahan', yang menunjukkan bahwa tafsir ini bertujuan untuk mempermudah pemahaman terhadap isi Al-Qur'an."
+  }
+]
