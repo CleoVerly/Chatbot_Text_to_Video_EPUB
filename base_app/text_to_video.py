@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from gtts import gTTS
 from PIL import Image, ImageDraw, ImageFont
-from moviepy.editor import AudioFileClip, CompositeVideoClip, ImageClip, concatenate_videoclips
+from moviepy import AudioFileClip, CompositeVideoClip, ImageClip, concatenate_videoclips
 
 # ======================================================================================
 # Konfigurasi dan Pemuatan Model
@@ -194,17 +194,17 @@ def generate_video_from_text(text, pexels_api_key, output_path):
             if bg_image is None: # Fallback ke gambar hitam
                 bg_image = Image.new("RGB", (1280, 720), (0, 0, 0))
 
-            background_clip = ImageClip(np.array(bg_image)).set_duration(chunk_duration)
+            background_clip = ImageClip(np.array(bg_image)).with_duration(chunk_duration)
             
             text_image = create_text_image(chunk)
-            text_clip = ImageClip(np.array(text_image)).set_duration(chunk_duration)
+            text_clip = ImageClip(np.array(text_image)).with_duration(chunk_duration)
             
             # Gabungkan background dan teks
-            composite_clip = CompositeVideoClip([background_clip, text_clip.set_position("center")])
+            composite_clip = CompositeVideoClip([background_clip, text_clip.with_position("center")])
             video_clips.append(composite_clip)
 
     # 3. Gabungkan semua klip dan tambahkan audio
-    final_video = concatenate_videoclips(video_clips).set_audio(audio_clip)
+    final_video = concatenate_videoclips(video_clips).with_audio(audio_clip)
     final_video.write_videofile(output_path, fps=24, codec="libx264", audio_codec="aac", logger=None)
     
     # Hapus file audio sementara

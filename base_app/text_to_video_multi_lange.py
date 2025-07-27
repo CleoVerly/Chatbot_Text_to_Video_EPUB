@@ -19,7 +19,7 @@ from bs4 import BeautifulSoup
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from gtts import gTTS
 from PIL import Image, ImageDraw, ImageFont
-from moviepy.editor import AudioFileClip, CompositeVideoClip, ImageClip, concatenate_videoclips
+from moviepy import AudioFileClip, CompositeVideoClip, ImageClip, concatenate_videoclips
 
 # ======================================================================================
 # Konfigurasi Multi-Bahasa
@@ -264,14 +264,14 @@ def generate_video_from_text(text, pexels_api_key, output_path, lang_code):
             bg_image = download_image_from_pexels(keyword_query, pexels_api_key)
             if bg_image is None: bg_image = Image.new("RGB", (1280, 720), (0, 0, 0))
 
-            background_clip = ImageClip(np.array(bg_image)).set_duration(chunk_duration)
+            background_clip = ImageClip(np.array(bg_image)).with_duration(chunk_duration)
             text_image = create_text_image(chunk)
-            text_clip = ImageClip(np.array(text_image)).set_duration(chunk_duration)
+            text_clip = ImageClip(np.array(text_image)).with_duration(chunk_duration)
             
-            composite_clip = CompositeVideoClip([background_clip, text_clip.set_position("center")])
+            composite_clip = CompositeVideoClip([background_clip, text_clip.with_position("center")])
             video_clips.append(composite_clip)
 
-    final_video = concatenate_videoclips(video_clips).set_audio(audio_clip)
+    final_video = concatenate_videoclips(video_clips).with_audio(audio_clip)
     final_video.write_videofile(output_path, fps=24, codec="libx264", audio_codec="aac", logger=None)
     
     if os.path.exists(audio_path): os.remove(audio_path)
